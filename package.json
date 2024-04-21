@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx src/server.ts"
+    "build": "tsup src",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +21,9 @@
     "@prisma/client": "^5.12.1",
     "@types/node": "^20.12.7",
     "fastify": "^4.26.2",
+    "tsup": "^8.0.2",
     "tsx": "^4.7.2",
+    "typescript": "^5.4.5",
     "zod": "^3.22.5"
   }
 }
