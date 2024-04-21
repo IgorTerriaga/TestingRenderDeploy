@@ -1,0 +1,23 @@
+{
+  "name": "testingrenderdeploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.12.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "@types/node": "^20.12.7",
+    "fastify": "^4.26.2",
+    "tsx": "^4.7.2",
+    "zod": "^3.22.5"
+  }
+}
